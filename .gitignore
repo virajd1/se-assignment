@@ -1,0 +1,14 @@
+node_modules/
+.env
+dataset*.bin
+dataset_full.*
+dataset_raw.bin
+*.log
+.vscode/
+dist/
+coverage/
+node_modules/
+.env
+.DS_Store
+*.log
+coverage/
