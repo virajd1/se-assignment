@@ -22,9 +22,6 @@ npm install
 
 2. Copy environment variables:
 
-```bash
-cp .env.example .env
-```
 
 3. Update `.env` with your `BASE_URL` and `API_KEY`.
 
@@ -77,22 +74,4 @@ Run unit tests with:
 npm test
 ```
 
-## Git repository guidance
 
-1. Initialize git:
-
-```bash
-git init
-git add .
-git commit -m "Initialize SE assessment Node.js workspace"
-```
-
-2. Push to your repository:
-
-```bash
-git branch -M main
-git remote add origin <your-github-repo-url>
-git push -u origin main
-```
-
-> Do not commit your real `.env` file or your API key.
